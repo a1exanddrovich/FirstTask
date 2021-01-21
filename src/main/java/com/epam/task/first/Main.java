@@ -1,8 +1,8 @@
-package com.epam.task.first.logic;
+package com.epam.task.first;
 
-import com.epam.task.first.logic.entities.Array;
-import com.epam.task.first.logic.view.ArrayPrinter;
-import com.epam.task.first.logic.view.ConsoleArrayPrinter;
+import com.epam.task.first.entities.Array;
+import com.epam.task.first.view.ArrayPrinter;
+import com.epam.task.first.view.ConsoleArrayPrinter;
 
 public class Main {
 
