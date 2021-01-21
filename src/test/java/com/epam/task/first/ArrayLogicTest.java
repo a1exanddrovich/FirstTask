@@ -103,11 +103,11 @@ public class ArrayLogicTest {
     @Test
     public void testGetAverageNumberShouldReturnAverageNumberWhenPositiveNumbersGiven() {
 
-        Array array = new Array(1, 2, 3);
+        Array array = new Array(1, 7, 2);
 
         int actual = arrayLogic.getAverageNumber(array);
 
-        Assert.assertEquals(2, actual);
+        Assert.assertEquals(3, actual);
 
     }
 

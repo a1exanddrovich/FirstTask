@@ -70,13 +70,8 @@ public class ArrayLogic {
         ArrayLogic arrayLogic = new ArrayLogic();
 
         int sum = arrayLogic.getSum(array);
-        int count = 0;
 
-        for(Integer element : elements) {
-            count++;
-        }
-
-        sum /= count;
+        sum /= elements.size();
 
         return sum;
 
